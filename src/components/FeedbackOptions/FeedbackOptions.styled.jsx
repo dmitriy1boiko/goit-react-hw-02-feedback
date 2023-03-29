@@ -2,8 +2,10 @@ import styled from 'styled-components'
 
 export const BtnContainer = styled.div`
 display: flex;
-gap: 10px;
+gap: 20px;
 margin-top:20px;
+margin-bottom:30px;
+justify-content: center;
 `;
 export const Button = styled.button`
   width: 100px;

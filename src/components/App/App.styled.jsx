@@ -1,9 +1,11 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
-height: 100vh;
-display: flex;
-flex-direction: column;
-align-items: center;
-fontsize: 40;
+  display: flex;
+  flex-direction: column;
+  fontsize: 40;
+  margin: 60px auto;
+  width: 500px;
+  background-color: darkgray;
+  border-radius: 5px;
 `;

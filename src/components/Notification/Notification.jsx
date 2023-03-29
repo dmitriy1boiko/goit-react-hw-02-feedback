@@ -1,3 +1,5 @@
+import { Feedback } from "./Notification.styled";
+
 export default function Notification() {
-  return <p>There is no feedback</p>;
+  return <Feedback>There is no feedback</Feedback>;
 }
